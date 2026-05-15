@@ -3,7 +3,7 @@
 Wind-Tunnel is Holochain's load testing framework. It applies user-defined load to running Holochain conductors and measures system response: latency, throughput, DHT sync lag, resource usage. It is completely separate from Sweettest (integration/correctness) and Playwright (E2E UI).
 
 **Repo:** https://github.com/holochain/wind-tunnel
-**Version:** 0.6.0
+**Version:** 0.6.1
 **Used for:** Performance regression CI (every merge to holochain main), soak testing, benchmarking
 
 ---

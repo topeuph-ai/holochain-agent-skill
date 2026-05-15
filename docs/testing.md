@@ -27,7 +27,7 @@ head -25 SKILL.md
 | T1.8 | `compatibility` field present and non-empty | Key exists, value not blank |
 | T1.9 | `metadata.author` is `soushi888` | Value matches |
 | T1.10 | `metadata.version` is present | Key exists, SemVer format |
-| T1.11 | `metadata.holochain-versions` references current pins | Contains `hdk=0.6.0`, `hdi=0.7.0`, `holonix ref=main-0.6` |
+| T1.11 | `metadata.holochain-versions` references current pins | Contains `hdk=0.6.1`, `hdi=0.7.1`, `holonix ref=main-0.6` |
 
 ---
 
@@ -135,11 +135,11 @@ grep -rn "holonix" . --include="*.md" | grep -v Plans/
 
 | # | Check | Expected value | Pass condition |
 |---|-------|----------------|----------------|
-| T5.13 | `hdk` pin in SKILL.md Quick Reference | `"=0.6.0"` | All occurrences match |
-| T5.14 | `hdi` pin in SKILL.md Quick Reference | `"=0.7.0"` | All occurrences match |
+| T5.13 | `hdk` pin in SKILL.md Quick Reference | `"=0.6.1"` | All occurrences match |
+| T5.14 | `hdi` pin in SKILL.md Quick Reference | `"=0.7.1"` | All occurrences match |
 | T5.15 | `holonix ref` in SKILL.md and Scaffold.md | `main-0.6` | All occurrences match |
 | T5.16 | No file references `hdk = "0.5.*"` or older | — | Zero matches |
-| T5.17 | PackageAndDeploy.md Cargo.toml example pins match current | `hdk = "=0.6.0"` | Matches T5.13 |
+| T5.17 | PackageAndDeploy.md Cargo.toml example pins match current | `hdk = "=0.6.1"` | Matches T5.13 |
 
 ---
 
@@ -200,7 +200,7 @@ Verify the skill loads and responds correctly in Claude Code.
 | T7.2 | Natural language trigger — workflow | Type "implement zome for Profile entry type" | `Workflows/ImplementZome.md` guidance appears |
 | T7.3 | Natural language trigger — context file | Type "how do I set up a Tryorama test?" | `Testing.md` content cited |
 | T7.4 | Natural language trigger — scaffold | Type "scaffold a new happ called my-network" | `Workflows/Scaffold.md` steps appear |
-| T7.5 | Version question | Ask "what version of hdk does this skill target?" | Responds with `0.6.0` |
+| T7.5 | Version question | Ask "what version of hdk does this skill target?" | Responds with `0.6.1` |
 | T7.6 | Out-of-scope question | Ask a non-Holochain question | Skill does not answer as if it's Holochain-related |
 
 ---

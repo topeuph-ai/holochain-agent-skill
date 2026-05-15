@@ -179,8 +179,8 @@ members = [
 ]
 
 [workspace.dependencies]
-hdi = "=0.7.0"
-hdk = "=0.6.0"
+hdi = "=0.7.1"
+hdk = "=0.6.1"
 serde = { version = "1", features = ["derive"] }
 thiserror = "1"
 ```

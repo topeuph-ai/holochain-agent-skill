@@ -28,7 +28,7 @@ Users receive a single installer (`.exe` / `.dmg` / `.AppImage`) with no Holocha
 | Branch | Holochain version | Status | Use when |
 |--------|-------------------|--------|----------|
 | `main` | 0.7.0-dev.x | Development | Cutting edge / experimental only |
-| `main-0.6` | 0.6.1-rc.0 | **Recommended** | New production projects |
+| `main-0.6` | 0.6.1 | **Recommended** | New production projects |
 | `main-0.5` | 0.5.x | Legacy | Existing 0.5.x apps only |
 | `main-0.3` | 0.3.x | Archived | Old apps only |
 
@@ -118,7 +118,7 @@ For dev mode you don't need a `.webhapp`. Instead, `kangaroo.config.ts` accepts:
 
 **`electron/config.ts`**
 ```typescript
-export const HOLOCHAIN_VERSION = "holochain-0.6.1-rc.0"; // match your branch
+export const HOLOCHAIN_VERSION = "holochain-0.6.1"; // match your branch
 export const APP_ID = "com.yourorg.yourapp";             // reverse-domain identifier
 export const PRODUCT_NAME = "Your App Name";              // alphanumeric + hyphens on Windows
 export const HAPP_PATH = "pouch/your-app.webhapp";

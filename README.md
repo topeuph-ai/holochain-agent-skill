@@ -15,7 +15,7 @@ A comprehensive [Agent Skills Open Standard](https://agentskills.io) skill for H
 | **Test** | Tryorama + Vitest setup, two-agent scenarios, `dhtSync`, update/delete patterns, test organization |
 | **Deploy** | Kangaroo-Electron packaging, `.webhapp` bundling, CI/CD, versioning semantics, auto-update |
 
-**Current version pins:** `hdk = "=0.6.0"` | `hdi = "=0.7.0"` | `holonix ref=main-0.6`
+**Current version pins:** `hdk = "=0.6.1"` | `hdi = "=0.7.1"` | `holonix ref=main-0.6`
 
 ## Installation
 

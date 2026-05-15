@@ -63,7 +63,7 @@
 
 ```toml
 [dev-dependencies]
-holochain = { version = "=0.6.0", features = ["test_utils"] }
+holochain = { version = "=0.6.1", features = ["test_utils"] }
 tokio = { version = "1", features = ["full"] }
 ```
 
